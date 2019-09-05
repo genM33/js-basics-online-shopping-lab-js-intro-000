@@ -74,8 +74,8 @@ const uniques = [];
 for (let i = 0; i < numbers.length; i++) {
   if (uniques.includes(numbers[i]) == false) {
     uniques.push(numbers[i]);
-  };
-};
+  }
+}
 console.log(uniques);
 
 //console.log(addToCart('biscuits'));
